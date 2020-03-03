@@ -120,13 +120,13 @@
   
   <div class="wrapper">
   <!-- Footer -->
-    <footer>Footer
+    <!-- <footer>Footer
       <div id="mapExeter"></div>
     </footer>
       <footer>2
       </footer>
         <footer>3
-        </footer>
+        </footer> -->
 
 </body>
 
