@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #1dccd8;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1dccd8;
+
+}
+
+.uweLogo{
+    cursor: pointer;
+    width: 20%;
+}
+
+.navBar{
+    list-style: none;
+}
+
+.navBar li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #1dccd8;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.navBar li a{
+    background-color: #1dccd8; 
+
+}
+
+.navBar:hover{
+    background-color: #c5bfbf;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #1dccd8;
+    border-style: outset;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #c5bfbf;
+}
+
+.pageHeader{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.exeterText{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+.exeterCath{
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.rennesText{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.rennesCath{
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}

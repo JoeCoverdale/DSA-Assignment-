@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    
+    <!-- DSA Assignment Indifidual Metadata File Example, 2019-20 -->
+    
+    <!-- author: joseph2.coverdale@live.uwe.ac.uk -->
+    
+    <!-- The following is the assignment metadata (DO NOT CHANGE) -->
+
+                <!-- Individual Contribution -->
+    
+    
+    
+    -<module acronymn="DSA" id="UFCFV4-30-2">
+        
+        <title>Data Schemas & Applications</title>
+        
+        <year>2019-20</year>
+        
+        <hand_in>2020-03-12</hand_in>
+        
+        <spec_url>https://fetstudy.uwe.ac.uk/~p-chatterjee/2019-20/modules/dsa/assignment/</spec_url>
+        
+    </module>
+    
+    <!-- end of metadata section -->
+    
+    
+    <!-- Group Section -->
+    
+    
+    
+    -<group id="w1-ZZ">
+        
+        <member id="16025197" name="Kane Newton-Stallwood"/>
+        
+        <member id="17024693" name="Joe Coverdale"/>
+        
+        <member id="18040195" name="Louie Crook"/>
+        
+        
+        -<workshop>
+            
+            <daytime>Thursday 9:30</daytime>
+            
+            <tutor>PC</tutor>
+            
+            <tutor>GW</tutor>
+            
+        </workshop>
+        
+        <!-- Each student should have contributed to one or more components -->
+        
+        
+        
+        -<component type="Database Design">         
+            
+            <contributor id="17024693"/>
+            
+            <!-- the following text fields allow for between 80 and 5000 characters -->
+            
+            <description> The database was consiedered a few times before we actually finished. I helped out by consideing how each of the tables would be used and linked. My teammates also did this and other parts.</description>
+            
+            <problems> Problems include: Relationships between tables, data types and tried to implement a weather table </problems>
+            
+            <solutions> Firstly: weather table proved to be useless as we shouldn't need to stored any weather data from the past. Secondly: data types were addressed by researching and testing. Thirdly: Our relationships were tested on paper until we found an efficent relationship diagram </solutions>
+            
+            <!-- integer required between 1 and 120 -->
+            
+            
+            <hours_effort>5</hours_effort>
+            
+        </component>
+        
+        
+        -<component type="HTML Design & Markup">
+            
+            <contributor id="17024693"/>
+            
+            <description> Re-design of the layout of the website, navigation bar, colour scheme. Rethinkning the functionality of the site and adding different pages with to split content up.</description>
+            
+            <problems>The problems encountered were: div tags not responding properly, layout of site not being accurate to code, google map not showing up, rss feed not showing up.</problems>
+            
+            <solutions>Re-writing code to find the problem, using broswer inspect tool to locate where a tag was then tackling it in visual code, redesigning the site making it a responsive layout with different pages, aqcuiring help from team when needed </solutions>
+            
+            <hours_effort>20</hours_effort>
+            
+        </component>
+        
+        
+        -<component type="CSS Design">
+    
+            <contributor id="17024693"/>
+                
+            <description> Re-designing a new layout of the website, naviation bar, making mulitple pages instead of having a single page application, making website repsonsive and adjust to size of screen of device. Resizing images and palcing 
+            them in different areas.</description>
+            
+            <problems>Code not adjusting the size and location of the image when attmpting to update it, css not working at times. </problems>
+            
+            <solutions> Making a new css file just for the specified page, this helped to adjust the page and it contents. Exiting out of visual code and restarting it seemed to refresh the code and make the sites design update. 
+            Adding a container into the code and placing each fucntion with its methods into it then editing the code for it.</solutions>
+            
+            <hours_effort>20</hours_effort>
+            
+        </component>
+        
+    </group>
+    
+    <!-- This section gives a link to group components, lists the techohnolgies used andpoints to any number of source files. Note that the more that these links work - the higher the mark for this section. Of course - the base_url link must work!! -->
+    
+    
+    
+    -<application>
+        
+        <!-- Make sure the base_url for the main application is reachable ashttps://isa.cems.uwe.ac.uk/~a-student/dsa/assignment/ -->
+        
+        
+        <base_url>https://fetstudy.uwe.ac.uk/~j2-coverdale/Responsive%20Assignment/newLayout/newLayout.php</base_url>
+        
+        <!-- a list of up to 8 technologies used (see schema) -->
+        
+        
+        
+        -<technologies>
+            
+            <tech>php</tech>
+            
+            <tech>html5</tech>
+            
+            <tech>xml</tech>
+            
+            <tech>css</tech>
+            
+            <tech>sql</tech>
+            
+            <tech>javascript</tech>
+            
+        </technologies>
+        
+        <config_file>https://isa.cems.uwe.ac.uk/~b-wayne/dsa/assignment/config.xml</config_file>
+        
+        <!-- URL of the Data Model - could be a HTML page with an image file or a gif/png file-->
+        
+        
+        <dm_source>https://isa.cems.uwe.ac.uk/~b-wayne/dsa/assignment/model.gif</dm_source>
+        
+        
+        -<source_files>
+            
+            
+            -<file>
+                
+                <name>newLayout.php</name>
+                
+                <purpose>home page</purpose>
+                
+                <name>photo.php</name>
+                
+                <purpose>Photo page</purpose>
+                
+                <name>weather.php</name>
+                
+                <purpose>Display weather information for Exeter and Rennes</purpose>
+                
+                <name>map.php</name>
+                
+                <purpose>Display the maps fo Exeter and Rennes</purpose>
+                
+                <name>rss.php</name>
+                
+                <purpose>Display the rss feed for Exexter and Rennes</purpose>
+                
+                <!-- source file should in a browser viewable format (e.g .phps, .xml, .txt, etc.) -->
+                
+                <!--Home Page!-->
+                <source_url>https://fetstudy.uwe.ac.uk/~j2-coverdale/Responsive%20Assignment/newLayout/newLayout.php</source_url>
+                <!--Photo Page!-->
+                <source_url>https://fetstudy.uwe.ac.uk/~j2-coverdale/Responsive%20Assignment/newLayout/photo.php</source_url>
+                <!--Weather Page!-->
+                <source_url>https://fetstudy.uwe.ac.uk/~j2-coverdale/Responsive%20Assignment/newLayout/weather.php</source_url>
+                <!--Map Page!-->
+                <source_url>https://fetstudy.uwe.ac.uk/~j2-coverdale/Responsive%20Assignment/newLayout/map.php</source_url>
+                <!--RSS Page!-->
+                <source_url>https://fetstudy.uwe.ac.uk/~j2-coverdale/Responsive%20Assignment/newLayout/rss.php</source_url>
+                
+            </file>
+            
+            
+            -<file>
+                
+                <name>dsa_utility.php</name>
+                
+                <purpose>holds required functions</purpose>
+                
+                <source_url>https://isa.cems.uwe.ac.uk/~b-wayne/dsa/assignment/dsa_utility.phps</source_url>
+                
+            </file>
+            
+        </source_files>
+        
+    </application>
+    
+    <!-- something about any learning outcomes achieved and any other overall comments -->
+    
+    
+    <overall_comments> The group assignment couldve gone alot better because, alot of the time we didnt meet up as a group to do work together which made working on specific tasks abit difficult. 
+        I was tasked with working on the design of the website which went alright apart from a few errors I encountered along the way for example, 
+        when I was working with the navigation bar the list items were not appearing. As a group I would say that we have worked well together coming to the end of the assignment. </overall_comments>
+    
+    <!-- Data Security Discussion Report - 406 words -->
+    
+<Report>
+    <title> Data Security Discussion </title>
+    <p> I have chosen to talk about Confidentiality, Integrity, Utility and Availibility </p>
+    
+    <p> If the web application that we have built was to be deployed then there would need to be an administrator put in place, this is because our site uses a database to display an RSS feed. 
+        The RSS feed contains a dataset from our SQL database, the data held in our database is for places of interest in Exeter and Rennes. 
+        This could be administrated by setting up a log in system which allows a user to gain access to viewing it, but if this happened then we would need to prepare to protect the users data as somebody hacking in 
+        and reviling somebody’s data could breach confidentiality.
+        For our web application to have integrity the site and pages will need to be consistent, this means that each page we have on our site will need to have a similar layout and design. 
+        The data that is kept on the site needs to be modified only when authorised, this is because if there are any types of unauthorised modifications then our site will breach data integrity. 
+        A data integrity breach could happen when one or multiple lines in the RSS feed show inaccurate data for example, 
+        if I looked in the feed for Exeter and saw a piece of data talking about Rennes then this would make it inconsistent which is a breach, we would tackle this by ensuring each piece of information is kept authentic. 
+        Our website has usefulness because it displays the data regarding the weather for each city and different comments about places of interest, 
+        but if the database went down which resulted in a loss of these then there would be a breach of utility. A way of tackling utility is by finding out how effiecnetly designed the site is for exmaple,
+        can a user find there destination is less clicks? this will be discovered through testing. There would need to be procedures set in place to ensure that our database and other system are kept up, 
+        and running to make sure everything on the site is kept present and displayed. Another example of why the database will need to be protected is what if somebody went on the site to view the places of interest for Rennes
+        but the server was down, this would cause the access of the information to be denied. Having this information denied creates a denial of serve attack which causes a breach of availability. 
+    </p>
+</Report>
+
