@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group_metafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://isa.cems.uwe.ac.uk/~p-chatterjee/2019-20/modules/dsa/assignment/dsa_group_schema.xsd">
+    <!-- This file is an example of a valid group metadata file. 
+    Use this example file as a template and fill with your own data  
+    validating as you go along using Oxygen or some other schema aware editor -->
+    <!-- DSA Assignment Group Metadata File Example, 2019-20 -->
+    
+    <!-- author: kane.newton-stallwood@live.uwe.ac.uk, joseph2.coverdale@live.uwe.ac.uk -->
+    
+    <!-- This file is an example of a valid group metadata file.Use this example file as a template and fill with your own datavalidating as you go along using Oxygen or some other schema aware editor -->
+    
+    
+    <!-- The following is the assignment metadata (DO NOT CHANGE) -->
+    
+    
+    
+    -<module acronymn="DSA" id="UFCFV4-30-2">
+        
+        <title>Data Schemas & Applications</title>
+        
+        <year>2019-20</year>
+        
+        <hand_in>2020-03-12</hand_in>
+        
+        <spec_url>https://fetstudy.uwe.ac.uk/~p-chatterjee/2019-20/modules/dsa/assignment/</spec_url>
+        
+    </module>
+    
+    <!-- end of metadata section -->
+    
+    
+    <!-- Group Section -->
+    
+    
+    
+    -<group id="w1-ZZ">
+        
+        <member id="16025197" name="Kane Newton-Stallwood"/>
+        
+        <member id="17024693" name="Joe Coverdale"/>
+        
+        <member id="18040195" name="Louie Crook"/>
+        
+        
+        -<workshop>
+            
+            <daytime>Thursday 9:30</daytime>
+            
+            <tutor>PC</tutor>
+            
+            <tutor>GW</tutor>
+            
+        </workshop>
+        
+        <!-- Each student should have contributed to one or more components -->
+        
+        
+        
+        -<component type="Database Design">
+            
+            <contributor id="16025197"/>
+            
+            <contributor id="18040195"/>
+            
+            <contributor id="17024693"/>
+            
+            <!-- the following text fields allow for between 80 and 5000 characters -->
+            
+            <description> Our database was drawn up a few times before the final was completed. We carefully considered and actioned the following tables: comments, poi, city, geo-location and images.   </description>
+            
+            <problems> Problems include: Relationships between tables, data types and tried to implement a weather table </problems>
+            
+            <solutions> Firstly: weather table proved to be useless as we shouldn't need to stored any weather data from the past. Secondly: data types were addressed by researching and testing. Thirdly: Our relationships were tested on paper until we found an efficent relationship diagram </solutions>
+            
+            <!-- integer required between 1 and 120 -->
+            
+            
+            <hours_effort>8</hours_effort>
+            
+        </component>
+        
+        
+        -<component type="Database Implementation">
+            
+            <contributor id="16025197"/>
+            
+            <contributor id="18040195"/>
+            
+            <description> Implementation: Following our design, we contructed and inserted data on phpmyadmmin  </description>
+            
+            <problems> Incorrect data types and redundent attributes </problems>
+            
+            <solutions> Corrected Data types. Comments: Timestamp to DateTime and Text to VARCHAR. Redundent Attributes: Comment: image </solutions>
+            
+            <hours_effort>5</hours_effort>
+            
+        </component>
+        
+        
+        -<component type="HTML Design & Markup">
+            
+            <contributor id="18040195"/>
+            
+            <contributor id="17024693"/>
+            
+            <description> Design the layout of the website, navigation bar, colour scheme etc... Functionality of the site and different pages with content, redesign the layout of site for individual task</description>
+            
+            <problems>The problems encountered were: div tags not responsing properly, layout of site</problems>
+            
+            <solutions>Re-writing code to find the problem, usuing broswer inspect tool to locate where a tag was then tackling it in visual code, redesigning the site making it a responsive layout with different pages </solutions>
+            
+            <hours_effort>20</hours_effort>
+            
+        </component>
+        
+        
+        -<component type="PHP Coding">
+            
+            <contributor id="16025197"/>
+            
+            <contributor id="18040195"/>
+            
+            <contributor id="17024693"/>
+            We have 4 main PHP files (not including our indiviudal tasks added) that gets data from the server/api and produces selective data
+            from our query. 
+            <description>PHP was used to access the project's database, query the data needed and export to javascript variables.
+            We have 4 main PHP files (not including our indiviudal tasks added) that gets data from the server/api and produces selective data
+            from our query. 
+            The config.php file handles the connection to the database and holds api keys in PHP variables.
+            The getLocation.php file loops through rows of our database table 'geo_location' - fetching all latitude and logitude coordinates and
+            assigning them each a variable name with an index from 0-15. Allowing us to easily reference coordinates used for map placement/markers in js.
+            The getPlacesOfInterest.php file does the same as the getLocation.php file, but instead it loops through our database table 'places_of_interest'
+            and concatenates a string of POI data to a variable with an index of 0-14. This data is used to produce infowindow content.
+            </description>
+            
+            <problems> In line with the requirements of the project, a server-side language had to be utilised that could run on the back end of our project.</problems>
+            
+            <solutions> To fulfill the requirements of the project, our server-side language of choice was PHP. Using PHP we were able communicate with our database, 
+            by executing MYSQL queries, to return results from APIs, and to format data to be returned to the front end as required. </solutions>
+            
+            <hours_effort>30</hours_effort>
+            
+        </component>
+        
+        
+        -<component type="Javascript / JSON Coding">
+            
+            <contributor id="16025197"/>
+            
+            <contributor id="18040195"/>
+            
+            
+            <description> Using JavaScript we were able to give our webpage dynamic features such as; Google maps API with markers, information windows and listeners. Also, we wanted to make our app interactive. </description>
+            
+            <problems> Javascript being one of the most challenging parts of Web Development, we faced challenges from syntax to learning new technologies to be able to implement desired features to satisfy the specification.</problems>
+            
+            <solutions> We were able to overcome our problems by using resources online to understand how we would implement a way to place markers on our maps.  </solutions>
+            
+            <hours_effort>8</hours_effort>
+            
+        </component>
+        
+        
+        -<component type="CSS Design">
+    
+            <contributor id="17024693"/>
+                
+            
+            <description> designing the layout of the website, naviation bar, pages, making website repsonsive and adjust to size of screen of device </description>
+            
+            <problems>css not adjusting image tags when attempting to update it, css not working </problems>
+            
+            <solutions> making a new css file for the specified page, this helped to adjust the page and it contents. </solutions>
+            
+            <hours_effort>20</hours_effort>
+            
+        </component>
+        
+    </group>
+    
+    <!-- This section gives a link to group components, lists the techohnolgies used andpoints to any number of source files. Note that the more that these links work - the higher the mark for this section. Of course - the base_url link must work!! -->
+    
+    
+    
+    -<application>
+        
+        <!-- Make sure the base_url for the main application is reachable ashttps://isa.cems.uwe.ac.uk/~a-student/dsa/assignment/ -->
+        
+        
+        <base_url>https://isa.cems.uwe.ac.uk/~b-wayne/dsa/assignment/index.php</base_url>
+        
+        <!-- a list of up to 8 technologies used (see schema) -->
+        
+        
+        
+        -<technologies>
+            
+            <tech>php</tech>
+            
+            <tech>html5</tech>
+            
+            <tech>xml</tech>
+            
+            <tech>sql</tech>
+    
+            <tech>css</tech>
+            
+            <tech>java script</tech>
+            
+        </technologies>
+        
+        <config_file>https://fetstudy.uwe.ac.uk/~k2-newtonstall/DSAAssignment1master/index.php</config_file>
+        
+        <!-- URL of the Data Model - could be a HTML page with an image file or a gif/png file-->
+        
+        
+        <dm_source>https://fetstudy.uwe.ac.uk/~k2-newtonstall/DSAAssignment1master/ERmodel.png</dm_source>
+        
+        
+        -<source_files>
+            
+            
+            -<file>
+                
+                <name>index.php</name>
+                
+                <purpose>main application file</purpose>
+                
+                <!-- source file should in a browser viewable format (e.g .phps, .xml, .txt, etc.) -->
+                
+                
+                <source_url>https://isa.cems.uwe.ac.uk/~b-wayne/dsa/assignment/index.phps</source_url>
+                
+            </file>
+            
+            
+            -<file>
+                
+                <name>dsa_utility.php</name>
+                
+                <purpose>holds required functions</purpose>
+                
+                <source_url>https://isa.cems.uwe.ac.uk/~b-wayne/dsa/assignment/dsa_utility.phps</source_url>
+                
+            </file>
+            
+        </source_files>
+        
+    </application>
+    
+    <!-- something about any learning outcomes achieved and any other overall comments -->
+    
+    
+    <overall_comments> The group found this an interesting and useful excercise that taught us the core technologies behind web development. Aside from 
+        learning languages; HTML5, XML, PHP, JavaScript, and SQL in the context of developing a website, we also gained valuable 
+        skills working with APIs and web developement tools/kits.  </overall_comments>
+    
+

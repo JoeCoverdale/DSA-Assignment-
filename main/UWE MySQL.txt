@@ -1,0 +1,9 @@
+Your mysql username is fet18040195
+Your password is 1ZplC3
+You can now connect to MySQL from milly with the following command:
+mysql -h mysql5 -u twincities -p
+Once connected to MySQL, you can select your database with the following MySQL command:
+use twincities;
+
+
+https://fetstudy.uwe.ac.uk/~l3-crook/
